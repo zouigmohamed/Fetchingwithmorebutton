@@ -1,0 +1,120 @@
+body {
+  background-color: mintcream;
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  flex-direction: column;
+}
+.pageTitle{
+  text-align: center;
+  border-radius: 10px;
+  border: 2px orange solid;
+  padding: 15px;
+}
+.card {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+  margin: 2px;
+  border-radius: 4px;
+  border: 2px goldenrod solid;
+}
+.card-title{
+    margin: 0;
+    width: 50%;
+    font-size: 20px;
+}
+.card-text{
+    margin: 0;
+    width: 100%;
+    font-size: 18px;
+}
+.container {
+  padding: 5px;
+  width: 80vw;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+.card.card.bg-light-subtle .card-title {
+  color: dimgrey;
+}
+.imageContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1px auto;
+  height: auto;
+  width: 210px;
+}
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  padding: 0.5em;
+  border-radius: 0.7em;
+}
+.card-body {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  padding: 10px;
+  background-color: aliceblue;
+  border-radius: 4px;
+  margin: 8px;
+
+}
+.text-section {
+  max-width: 80%;
+  background-color: aliceblue;
+}
+.cta-section {
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+}
+.cta-section .btn {
+  padding: 0.3em 0.5em;
+  color: black;
+  background-color: #5783db;
+  border-radius: 8px;
+}
+ 
+.price{
+    border-bottom: #5783db 2px solid ;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.load{
+    background-color: #28a745;
+    width: 50%;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    margin-bottom: 300px;
+    display: block;
+    border: 1px solid #28a745;
+    letter-spacing: 0.5rem;
+    color: white;
+    text-transform: capitalize;
+    
+}
+
+.load:disabled{
+    cursor: not-allowed;
+    background-color: whitesmoke;
+    color: orangered;
+    border: 1px solid red;
+}
+
+
